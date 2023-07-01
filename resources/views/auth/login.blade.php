@@ -1,7 +1,6 @@
 @extends('auth.layouts')
 
 @section('content')
-
     <div class="grid grid-cols-2">
         <section>
             <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
@@ -67,18 +66,13 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div
-                class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 h-100 bg-gray-100">
-                <a href="#" class="flex items-center mb-4 text-2xl font-semibold text-gray-900 dark:text-white">
+        <section class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 h-100 bg-gray-100">
+            <a href="#" class="flex items-center mb-4 text-2xl font-semibold text-gray-900 dark:text-white">
                     EXAMPLE APP
-                </a>
-                <p class="text-gray-900 text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, aspernatur itaque ratione
-                    repellendus molestiae quibusdam cum nobis!
-                </p>
-            </div>
+            </a>
+            <p class="text-gray-900 text-center">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, aspernatur itaque ratione repellendus molestiae quibusdam cum nobis!
+            </p>
         </section>
     </div>
-
 @endsection
